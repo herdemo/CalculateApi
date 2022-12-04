@@ -30,7 +30,7 @@ def Operation(firstNumer, secondNumber):
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "This is simple API"}
 
 
 @app.post("/calculate", response_model=CalculateResponse)
